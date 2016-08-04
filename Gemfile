@@ -7,8 +7,11 @@ gem 'puma', '~> 3.0'
 gem 'rack-cors'
 
 group :development, :test do
+  gem 'awesome_print'
   gem 'byebug', platform: :mri
   gem 'factory_girl_rails', '~> 4.7'
+  gem 'pry'
+  gem 'pry-rails'
 end
 
 group :development do
