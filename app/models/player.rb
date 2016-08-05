@@ -6,6 +6,8 @@ class Player < ApplicationRecord
 
   # Validations
 
+  validates :name, :nationality, :position, :birthdate, presence: true
+
   # Methods
 
 end
